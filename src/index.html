@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- adds in external stylesheet -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+
+    <section id="weather-input">
+
+      <form id="weather-form" method="get" action="/weather">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+        <button id="search" type="submit">Get Weather</button>
+      </form>
+
+    </section>
+
+    <section id="weather-output">
+
+      <h2 id="location"></h2>
+      <h3 id="weather"></h3>
+      <h3 id="temp"></h3>
+      <h3 id="wind-speed"></h3>
+      <img id="weather-icon" src="" alt="Weather Icon">
+
+    </section>
+
+    <!-- adds in the script file -->
+    <script src="script.js"></script>
+</body>
+</html>

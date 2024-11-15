@@ -1,0 +1,29 @@
+body{
+    display: block;
+    text-align: center;
+    background-color: honeydew;
+}
+
+img{
+    visibility: hidden;
+    height: 200px;
+}
+
+input{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#weather-output{
+    border-radius: 5px;
+    border: 5px dotted white;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    visibility: hidden;
+}
